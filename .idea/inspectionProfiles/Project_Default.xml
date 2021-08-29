@@ -1,0 +1,58 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="16">
+            <item index="0" class="java.lang.String" itemvalue="mysqlclient" />
+            <item index="1" class="java.lang.String" itemvalue="protobuf" />
+            <item index="2" class="java.lang.String" itemvalue="firebase-admin" />
+            <item index="3" class="java.lang.String" itemvalue="cryptography" />
+            <item index="4" class="java.lang.String" itemvalue="Flask-MySQLdb" />
+            <item index="5" class="java.lang.String" itemvalue="google-cloud-storage" />
+            <item index="6" class="java.lang.String" itemvalue="typing-extensions" />
+            <item index="7" class="java.lang.String" itemvalue="uWSGI" />
+            <item index="8" class="java.lang.String" itemvalue="importlib-metadata" />
+            <item index="9" class="java.lang.String" itemvalue="pyOpenSSL" />
+            <item index="10" class="java.lang.String" itemvalue="zipp" />
+            <item index="11" class="java.lang.String" itemvalue="cachetools" />
+            <item index="12" class="java.lang.String" itemvalue="google-api-python-client" />
+            <item index="13" class="java.lang.String" itemvalue="grpcio" />
+            <item index="14" class="java.lang.String" itemvalue="Flask-Email" />
+            <item index="15" class="java.lang.String" itemvalue="google-auth" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+          <option value="N812" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="type.without_ui" />
+          <option value="type.with_ui" />
+          <option value="int.__getitem__" />
+          <option value="test_main.Money.__sub__" />
+          <option value="bool.user_id" />
+          <option value="bool.jwt_token" />
+          <option value="matplotlib.pyplot" />
+          <option value="result.soomgo.plotly.express" />
+          <option value="result.soomgo.plotly.graph_objects" />
+          <option value="bool.email" />
+          <option value="dict.password" />
+          <option value="dict.json" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
